@@ -1,0 +1,42 @@
+<div>
+	
+	<span id="title">
+		<h1>Contact Card</h1>
+	</span>
+
+	<div id="search-box" class="input-group">
+		
+		<input type="text" class="form-control" ng-model="email_id" placeholder="search with email">
+		<span class="input-group-addon">
+			<button id="search-button" class="glyphicon glyphicon-search"  ng-click="getDetails(email_id)"></button>
+		</span>
+	</div>
+
+	<div class="about jumbotron" ng-hide="!avatar" >
+		<img id="avatar" ng-src="{{avatar}}" />
+		<div id="fullname">{{fullname}}</div>
+		<div id="bio">{{bio}}</div>	
+		<div id="personal-website" ng-hide="!personalWebsite">
+			<a ng-href="{{personalWebsite}}">Pesonal Website : {{fullname}} Portfolio</a>
+		</div>
+		<div id="location" ng-hide="!location">Location : {{location|uppercase}}</div>
+		<div id="timeZone" ng-hide="!timeZone">Timezone : {{timeZone|uppercase}}</div>
+
+		<ul id="social">
+			<li><a ng-href="{{facebook}}"  target="_blank"><i class="fa fa-lg  fa-facebook"></i></a></li>
+		    <li><a ng-href="{{twitter}}" target="_blank"><i class="fa fa-lg fa-twitter"></i></a></li>
+		    <li><a ng-href="{{github}}" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
+		    <li><a ng-href="{{linkedin}}" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+    	</ul>
+
+	</div>
+	
+		
+
+
+
+	
+</div>
+
+
+

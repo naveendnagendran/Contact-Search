@@ -1,0 +1,97 @@
+/* app css stylesheet */
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+#title{
+	text-align: center;
+	font-weight: 900;
+	font-family: 'Raleway';
+}
+
+#search-button{
+border:none; padding: 0;  outline:none;
+background: none; background-color:#42484E;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+}
+
+ul>li{
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+
+}
+
+#fullname{
+	position: relative;
+	float: right;
+	left: -15em; 
+	font-size: 2em;
+	color: white;
+}
+
+#avatar{
+	height: 200px;
+	width: 200px;
+	border-radius: 0px;
+	border:none; padding: 0;  outline:none;
+	background: none;
+}
+
+.jumbotron{
+	margin-top: 20px;
+}
+
+#bio{
+	position: relative;
+	font-size: 1.5em;
+	left: 16.5em;
+	top: -6.5em;
+	color: #bdc3c7;	
+	max-width: 60%;
+}
+
+#personal-website{
+	position: relative;
+	font-size: 1.5em;
+	left: 16.5em;
+	top: -5.5em;
+	color: #bdc3c7;		
+	opacity: 0.9;
+}
+
+#location{
+	position: relative;
+	font-size: 1.5em;
+	left: 16.5em;
+	top: -4em;
+	color: #bdc3c7;		
+	opacity: 0.9;	
+}
+#timeZone{
+	position: relative;
+	float:right;
+	top: -5.5em;
+	color: #bdc3c7;		
+	opacity: 0.9;
+	font-size: 1.5em;	
+}
+
+
+.fa .fa-lg{
+	font-size: 10px;
+}
+
+#social{
+	position: relative;
+	float:right;
+	top: -2em;
+	color: #bdc3c7;		
+	opacity: 0.9;
+	font-size: 1.5em;
+}
+
